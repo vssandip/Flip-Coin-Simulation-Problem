@@ -1,0 +1,9 @@
+isheads=$((RANDOM%2))
+if [ $ishead -eq 1 ]
+then 
+   echo "Gatting head is winner"
+elif [$ishead -eq 0 ]
+then 
+       echo " Gatting tail is winner"
+fi
+
